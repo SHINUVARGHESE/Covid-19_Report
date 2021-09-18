@@ -21,12 +21,12 @@ class India extends Component {
   render() {
     return (
       <div className="row">
-        <div className="col-md-12">
+        <div className="col-md-12 text-center">
           <img src="https://www.countryflags.io/in/shiny/64.png" alt="txt"/>
           <h3>INDIA</h3>
         </div>
         <div className="col-md-12">
-          <div className="row">
+          <div className="row text-center"> 
             <div className="col-md-3 pt-3">
               <Card
                 className="badge badge-info"

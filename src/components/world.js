@@ -25,7 +25,7 @@ class World extends Component {
                 <td>Country</td>
                 <td>Total Cases</td>
                 <td>Recovered</td>
-                <td>Deths</td>
+                <td>Deaths</td>
               </tr>
             </thead>
             <tbody>
@@ -36,7 +36,7 @@ class World extends Component {
                                 <td>{item.country} <img style={{width:'64px', marginLeft:'10px'}} src={item.countryInfo.flag}/></td>
                                 <td>{item.cases}</td>
                                 <td>{item.recovered}</td>
-                                <td>{item.deths}</td>
+                                <td>{item.deaths}</td>
                             </tr>
                         )
                     })
